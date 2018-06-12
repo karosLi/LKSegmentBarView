@@ -1,3 +1,3 @@
 # LKSegmentBarView
 
-![image](https://github.com/karosLi/LKCalendar/blob/master/Demo1.gif)
+![image](https://github.com/karosLi/LKSegmentBarView/blob/master/demo.PNG)
