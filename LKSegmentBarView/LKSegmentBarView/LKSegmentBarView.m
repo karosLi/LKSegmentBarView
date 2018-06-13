@@ -73,7 +73,11 @@
 
 - (void)setSegmentColors:(NSArray<UIColor *> *)segmentColors {
     _segmentColors = segmentColors;
-    
+}
+
+- (void)setCurrentSegment:(NSInteger)currentSegment {
+    _currentSegment = currentSegment;
+    [self setNeedsDisplay];
 }
 
 #pragma mark - draw

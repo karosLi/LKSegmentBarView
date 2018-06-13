@@ -80,7 +80,7 @@ typedef NS_ENUM (NSUInteger, LKSegmentBarViewCornerType) {
 @property (nonatomic, assign) NSInteger numberOfSegment;
 
 /**
- 当前选中索引
+ 当前选中索引，重新设置索引会重新渲染
  */
 @property (nonatomic, assign) NSInteger currentSegment;
 
